@@ -1,0 +1,5 @@
+apiVerison: v1
+Kind: NameSpace
+metadata: 
+  name: expense
+  

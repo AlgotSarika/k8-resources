@@ -1,4 +1,4 @@
-Kind: Namespace
 apiVerison: v1
+Kind: Namespace
 metadata: 
-  name: expense
+  name: dev

@@ -1,5 +1,4 @@
 apiVerison: v1
-Kind: NameSpace
+Kind: Namespace
 metadata: 
   name: expense
-  

@@ -9,7 +9,7 @@ spec:
     resources: 
        # soft limit
        requests:
-         memeory: "68Mi"
+         memory: "68Mi"
          cpu: "100m"
       # hard limit
        limits:

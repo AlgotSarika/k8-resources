@@ -27,7 +27,7 @@ spec:
      spec:
        containers:
        - name: nginx
-         image: algotsarika/deployment:1.0
+         image: algotsarika/deployment:2.0
          ports:
          - containerPort: 80
 ---

@@ -29,7 +29,7 @@ roleRef:
 kind: Pod
 apiVersion: v1
 metadata:
-  name: debug
+  name:  sa-demo
   namespace: expense
 spec:
   # one pod can contain multiple containers

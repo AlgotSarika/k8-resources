@@ -29,7 +29,7 @@ roleRef:
 kind: Pod
 apiVersion: v1
 metadata:
-  name: sa-demo
+  name: debug
   namespace: expense
 spec:
   # one pod can contain multiple containers
@@ -37,7 +37,7 @@ spec:
   initContainers:
   - name: awscli
     image: amazon/aws-cli
-    command:  ['sh', '-c', 'aws secretsmanager get-secret-value --secret-id expense/mysql/creds --query SecretString --output text > /secrets/.env ']
+    command:  ["sleep", "3600"]
     volumeMounts:
     - mountPath: /secrets
       name: secret-volume
